@@ -14,5 +14,5 @@ export default defineConfig({
     vue(),
     WindiCSS(),
   ],
-  base: "/mail-client/"
+  base: "/email/"
 })
