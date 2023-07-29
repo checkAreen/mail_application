@@ -13,7 +13,7 @@
         <ul class="flex flex-col h-auto w-full pt-4 md:pt-20 ">
             <li v-for="(mail, index) in mails" :key="index" class="flex  rounded-lg transition-shadow cursor-pointer hover:shadow-2xl hover:shadow-blue-300 dark:hover:shadow-gray-900 w-full p-5 bg-white dark:bg-gray-700 mb-4" >
                 <div class="relative  w-10 h-10">
-                    <img :src="`/images/${mail.picture}`" class="rounded-full bg-sky-300 w-full h-full object-cover" :alt="`${mail.picture.split('')[0]}`">
+                    <img :src="`./images/${mail.picture}`" class="rounded-full bg-sky-300 w-full h-full object-cover" :alt="`${mail.picture.split('')[0]}`">
                     <div class="absolute right-0 bottom-0 z-10 w-3 h-3 bg-green-600 rounded-full border-2 border-white">
                     </div>
                 </div>
